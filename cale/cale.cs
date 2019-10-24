@@ -11,11 +11,17 @@ namespace cale
             return x + y;
         }
 
-
-
         public int sub(int x, int y)
         {
             return x - y;
+        }
+        public int Mul(int x , int y)
+        {
+            return x * y;
+        }
+        public int Div(int x,int y)
+        {
+            return x / y;
         }
     }
 }
