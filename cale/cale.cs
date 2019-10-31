@@ -6,20 +6,20 @@ namespace cale
 {
     public class cale
     {
-        public int Add(int x, int y)
+        public float Add(int x, int y)
         {
             return x + y;
         }
 
-        public int sub(int x, int y)
+        public float sub(int x, int y)
         {
             return x - y;
         }
-        public int Mul(int x , int y)
+        public float Mul(int x , int y)
         {
             return x * y;
         }
-        public int Div(int x,int y)
+        public float Div(int x,int y)
         {
             return x / y;
         }
