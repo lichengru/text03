@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace cale
+namespace Program
 {
-    public class cale
+    public class Cale
     {
         public float Add(int x, int y)
         {
             return x + y;
         }
 
-        public float sub(int x, int y)
+        public float Sub(int x, int y)
         {
             return x - y;
         }
@@ -21,7 +21,7 @@ namespace cale
         }
         public float Div(int x,int y)
         {
-            return x / y;
+            return (float)x / (float)y;
         }
     }
 }
